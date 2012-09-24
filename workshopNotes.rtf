@@ -28,15 +28,24 @@ cd - move to diff folder\
 \
 GIT commands\
 go to the folder you want,\
-type git init //Let git know you want git to watch this folder for you..\
+type git init //Let git know you want git to watch this folder for you..just do once\
 \
-git status //tell me status of this directory you asked Git to watch.\
+git status //tell status of this directory you asked Git to watch.\
 See the last line, untracked files present //You told Git to watch folder, but which files?\
+\
 git add index.html //track this particular file\
 git add . //track everything inside this folder\
 \
+git must know how to backup for you. Is it every line you type, every 5 s?\
+git commit -m //m means message, label this particular backup\
 \
-Understanding Git\
+git log //show log of backups made. It shows you who, time that a commit is done.\
+\
+Basic workflow: 3 steps\
+Make changes, ADD, COMMIT with a message label.\
+\
+\
+Understanding GIT\
 You are coding, you need to backup. You first think about Dropbox (Cloud)\
 But with GIT, it gives you all versions of the same file. (Many many backups)\
 \

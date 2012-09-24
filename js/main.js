@@ -15,6 +15,23 @@ $(document).ready(function(){
 	// });
 
 //All these functions are found only inside jQuery
+
+$("li").on("click", function(){ //done class is defined in your CSS in index.html.
+
+	if ($(this).hasClass("done")) {
+		$(this).removeClass("done");
+	} else {
+		$(this).addClass("done");
+	}
+	
+		//$(this).addClass("done");	
+		//$("li").text-decoration: line-through;
+		//$("li").addClass("done");
+	
+
+}); //li function
+
+
 	$("img").on("dblclick", function(){ //same as img.click
 		//when img tag, and when click, do this function
 		//there is a whole list of click, doubleclicks, hover, etc
