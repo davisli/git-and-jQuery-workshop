@@ -46,3 +46,5 @@ $("li").on("click", function(){ //done class is defined in your CSS in index.htm
 	// }); //img.click
 
 }); //document.ready
+
+I was here. (Using GitHub web login)
